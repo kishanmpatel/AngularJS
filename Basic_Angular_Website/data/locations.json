@@ -1,0 +1,29 @@
+﻿[
+	{
+		"id": 1,
+		"name": "Denver Location",
+		"street": "123 Main Street",
+		"city": "Denver",
+		"state": "CO",
+		"zip": "80014",
+		"phone": "123-123-1234"
+	},
+	{
+		"id": 2,
+		"name": "Lone Tree Location",
+		"street": "124 Main Street",
+		"city": "Lone Tree",
+		"state": "CO",
+		"zip": "80124",
+		"phone": "123-123-1235"
+	},
+	{
+		"id": 3,
+		"name": "Edison Location",
+		"street": "125 Main Street",
+		"city": "Edison",
+		"state": "NJ",
+		"zip": "08820",
+		"phone": "123-123-1236"
+	}
+]

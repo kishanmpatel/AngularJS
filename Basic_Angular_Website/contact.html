@@ -1,0 +1,15 @@
+﻿<div class="row">
+    <div class="col-lg-12">
+        <h2>Contact</h2>
+        <p>Please email support support@email.com</p>
+        <h3>Locations</h3>
+		<div ng-repeat="location in locations">
+			<div class="location">
+				<p>{{location.name}}</p>
+				<p>{{location.street}}</p>
+				<p>{{location.city}}, {{location.state}} {{location.zip}}</p>
+				<p>Phone: {{location.phone}}</p>
+			</div>
+		</div>
+    </div>
+</div>
