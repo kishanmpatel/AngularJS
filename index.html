@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="app.js"></script>
+        <script>
+            da.setAssets("js", "one.js");
+            da.setAssets("css", "one.css");
+        </script>
+    </head>
+    <body>
+        <h1 id="heading">JavaScript Playground </h1>
+        <script>da.setAssets("js", "two.js");da.setAssets("css", ["two.css", "four.js", "five.css"]);</script>
+        <span>Sub Head</span>
+        <script>da.setAssets("js", "three.js");</script>
+    </body>
+</html>
